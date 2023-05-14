@@ -1,13 +1,12 @@
 
-  :root{
-    --nav-background
-  }
-  
 }
   nav {
     background-color: #130f40;
     border-radius: 5px;
     margin-bottom: 10px;
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
   }
   
   nav :is(ul, li) {
@@ -65,4 +64,8 @@
   
   nav > ul > li > ul > li {
     display: block;
+  }
+nav img {
+    height: 2%; width: 2%;
+
   }
